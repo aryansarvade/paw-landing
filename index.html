@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Garden of Us</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="gothic-heading">
+      Letters from the Other Side<br />
+      of the Screen 🥀 🐈 🥀
+    </h1>
+    <section class="landing-section glow-section">
+      <div class="message-container">
+        <p class="gothic-message">
+          You didn’t walk in when I was shining. You stayed when I was shadowed.
+          And that means everything.
+        </p>
+        <img
+          src="./assets/cat-walk.gif"
+          id="walkingCat"
+          class="walking-cat"
+          alt="Walking Cat" />
+      </div>
+    </section>
+
+    <hr class="glow-divider" />
+
+    <section class="meme-section glow-section">
+      <h2 class="meme-heading gothic-heading">Some Favorite Memes</h2>
+
+      <div class="flip-card-container">
+        <div class="flip-card" id="flipCard">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="./assets/card-back.jpg"
+                alt="Card Back"
+                class="card-back-image" />
+            </div>
+            <div class="flip-card-back">
+              <img id="memeImage" src="" alt="Meme" />
+            </div>
+          </div>
+        </div>
+
+        <div class="meme-buttons">
+          <button id="shuffleButton" class="shuffle-button">
+            Shuffle Meme 🐾
+          </button>
+          <button id="muteToggle" class="mute-button">🔊</button>
+        </div>
+      </div>
+    </section>
+
+    <hr class="glow-divider" />
+
+    <section class="cat-tarot-section fade-on-scroll glow-section">
+      <h2 class="gothic-heading">Mystic Cat Tarot 🔮</h2>
+      <div class="tarot-container">
+        <img
+          src="./assets/cat-walk.gif"
+          class="tarot-cat"
+          id="tarotCat"
+          alt="Walking Cat" />
+
+        <div class="tarot-cards">
+          <div class="tarot-card" data-index="0"></div>
+          <div class="tarot-card" data-index="1"></div>
+          <div class="tarot-card" data-index="2"></div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="glow-divider" />
+
+    <section class="memory-frame-section fade-on-scroll glow-section">
+      <h2 class="gothic-heading">The Frame We Made 🎨</h2>
+      <div class="frame-display">
+        <img
+          src="./assets/frame-memory.png"
+          alt="Handmade Frame"
+          class="framed-image" />
+      </div>
+    </section>
+
+    <hr class="glow-divider" />
+
+    <section class="letter-section fade-on-scroll glow-section">
+      <h2 class="gothic-heading">An Open Letter 💌</h2>
+
+      <div class="envelope-image-wrapper" id="envelopeWrapper">
+        <div class="envelope-image" id="envelopeImage">
+          <div class="heart-icon">💙</div>
+          <div class="letter-paper" id="letterPaper">
+            <p class="letter-text" id="letterText"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="glow-divider" />
+
+    <div class="scroll-down-container">
+      <button class="scroll-down-button" id="revealScroll">
+        ✨ Surprise!! ✨
+      </button>
+    </div>
+
+    <!-- Surprise Reveal Heading -->
+    <h2 class="gift-reveal-text" id="giftRevealHeading">
+      I have something for you 🎁
+    </h2>
+
+    <img src="./assets/paw.png" class="paw paw-top-left" alt="Cat Paw" />
+    <img src="./assets/paw.png" class="paw paw-top-right" alt="Cat Paw" />
+    <img src="./assets/paw.png" class="paw paw-bottom-left" alt="Cat Paw" />
+    <img src="./assets/paw.png" class="paw paw-bottom-right" alt="Cat Paw" />
+
+    <!-- Top-left -->
+    <img
+      src="./assets/petal1.png"
+      class="side-petal top-left-petal-1"
+      alt="Petal 1 Left" />
+    <img
+      src="./assets/petal2.png"
+      class="side-petal top-left-petal-2"
+      alt="Petal 2 Left" />
+
+    <!-- Top-right -->
+    <img
+      src="./assets/petal1.png"
+      class="side-petal top-right-petal-1"
+      alt="Petal 1 Right" />
+    <img
+      src="./assets/petal2.png"
+      class="side-petal top-right-petal-2"
+      alt="Petal 2 Right" />
+
+    <script src="script.js"></script>
+  </body>
+</html>
